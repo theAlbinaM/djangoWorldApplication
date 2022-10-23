@@ -75,8 +75,11 @@ WSGI_APPLICATION = 'worldapp.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'world',
+        'USER': 'Albina',
+        'PASSWORD': 't4r6*Mebvavbfkmk',
+        'HOST': 'localhost'
     }
 }
 
